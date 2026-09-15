@@ -24,7 +24,7 @@ public class MyAdapter extends RecyclerView.Adapter<CountryViewHolder> {
     public CountryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = mInflater.inflate(R.layout.country_layout, parent, false );
         CountryViewHolder holder = new CountryViewHolder(view,this);
-        return null;
+        return holder;
     }
 
     @Override

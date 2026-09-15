@@ -16,6 +16,7 @@ public class CountryViewHolder extends RecyclerView.ViewHolder implements View.O
         super(item);
         this.madapter = adapter;
         this.tid = item.findViewById(R.id.tid);
+        this.tcountry = item.findViewById(R.id.tcountry);
         item.setOnClickListener(this);
     }
 
